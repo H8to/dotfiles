@@ -1,0 +1,12 @@
+[Nemo Action]
+
+Active=true
+Name=Copy Image to Clipboard
+Comment=Use to copy images to clipboard from Nemo
+
+Exec=xclip -selection clipboard -t image/png -i %F
+
+Selection=s
+Extensions=jpg;jpeg;png;bmp;jpe;jfif;gif;tif;tiff;
+
+Name[de]=Kopiere Bild in Zwischenablage

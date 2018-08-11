@@ -1,0 +1,13 @@
+[Nemo Action]
+
+Active=true
+Name=Shrink Image (4000px Width)
+Comment=Use to shrink images
+
+Exec=bash -c 'MAGICK_OCL_DEVICE=OFF convert -strip -interlace Plane -gaussian-blur 0.05 -resize 4000 -quality 85 %F "$(echo %F | cut -d'.' -f 1).shrinked.jpg"'
+
+EscapeSpaces=true
+Selection=s
+Extensions=jpg;jpeg;png;bmp;jpe;jfif;gif;tif;tiff;
+Terminal=false
+Name[de]=Bild verkleinern (4000px Breite)
