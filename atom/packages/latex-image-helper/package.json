@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-1161030-23696-mdrhxz/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-1161030-23696-mdrhxz/package.tgz",
+        "spec": "/tmp/d-1161030-23696-mdrhxz/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-1161030-23696-gfb20s"
+    ]
+  ],
+  "_from": "../d-1161030-23696-mdrhxz/package.tgz",
+  "_id": "latex-image-helper@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/latex-image-helper",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-1161030-23696-mdrhxz/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-1161030-23696-mdrhxz/package.tgz",
+    "spec": "/tmp/d-1161030-23696-mdrhxz/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1161030-23696-mdrhxz/package.tgz",
+  "_shasum": "bf5a9664dba663d082e84aff63f5bbf731aac998",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-1161030-23696-mdrhxz/package.tgz",
+  "_where": "/tmp/apm-install-dir-1161030-23696-gfb20s",
+  "bugs": {
+    "url": "https://github.com/h8to/dotfiles/issues"
+  },
+  "dependencies": {},
+  "description": "When paste image to latex ,this will make a directory name \"images\" and will paste the image as a png file in this image, then will insert a relative image url",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/h8to/dotfiles/",
+  "keywords": [
+    "latex",
+    "image",
+    "clipboard",
+    "paste",
+    "copy"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "latex-image-helper",
+  "optionalDependencies": {},
+  "readme": "# Latex Image Helper\n\nAn Latex plugin for Latex grammar. Create image file relative to the Latex file and insert a relative url to that file.\n\n## Usage\n1. Take a screenshot or copy any image to the clipboard.\n2. Paste it into Atom Latex editor\n3. See that an directory name \"images\" was create, and the directory has a png file, and a url was inserted.",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h8to/latex-image-helper.git"
+  },
+  "version": "1.0.1"
+}
