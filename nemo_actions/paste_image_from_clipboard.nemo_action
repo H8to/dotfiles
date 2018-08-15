@@ -1,0 +1,16 @@
+[Nemo Action]
+
+Active=true
+Name=Paste Image from Clipboard Here
+Comment=Paste Image from Clipboard Here
+
+Exec=bash -c 'xclip -selection clipboard -t image/png -o > %P/image_paste.png && mv %P/image_paste.png %P/image_$(md5sum %P/image_paste.png | cut -d" " -f1 | cut -c1-8).png'
+
+
+Selection=none
+Extensions=any
+Terminal=false
+Icon-Name=image-viewer
+EscapeSpaces=true
+
+Name[de]=Bild aus Zwischenablage einfügen
