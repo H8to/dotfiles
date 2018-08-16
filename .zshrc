@@ -1,5 +1,6 @@
 ENABLE_CORRECTION="false"
 
+# Basic aliases
 alias less='less -erX'
 alias psg='ps uax|grep -i --color'
 alias du="du -h"
